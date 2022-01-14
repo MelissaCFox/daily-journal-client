@@ -18,7 +18,7 @@ export const EntryList = ({ moods, entries, onEditButtonClick, onDeleteButtonCli
 
 
   const filterAllEntries = (moodId) => {
-    const filteredEntriesByMood = entries.filter(entry => entry.moodId === parseInt(moodId))
+    const filteredEntriesByMood = entries.filter(entry => entry.mood_id === parseInt(moodId))
     setEntries(filteredEntriesByMood)
     setMoodSelected(parseInt(moodId))
   }

@@ -46,5 +46,53 @@
       "id": 4,
       "label": "Ok"
     }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "label": "Python"
+    },
+    {
+      "id": 2,
+      "label": "SQL"
+    },
+    {
+      "id": 3,
+      "label": "Classes"
+    },
+    {
+      "id": 4,
+      "label": "Packages"
+    },
+    {
+      "id": 5,
+      "label": "Methods"
+    },
+    {
+      "id": 6,
+      "label": "Setup"
+    }
+  ],
+  "entryTags": [
+    {
+      "id": 1,
+      "tagId": 1,
+      "entryId": 2
+    },
+    {
+      "id": 2,
+      "tagId": 6,
+      "entryId": 2
+    },
+    {
+      "id": 3,
+      "tagId": 5,
+      "entryId": 3
+    },
+    {
+      "id": 2,
+      "tagId": 4,
+      "entryId": 4
+    }
   ]
 }
