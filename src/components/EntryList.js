@@ -59,9 +59,8 @@ export const EntryList = ({ moods, entries, onEditButtonClick, onDeleteButtonCli
             .filter(happyEntries => happyEntries.mood.label === "Happy")
         */}
       {filteredEntries.map(entry => {
-        return <div className="panel-block">
+        return <div key={entry.id} className="panel-block">
           <Entry
-            key={entry.id}
             entry={entry}
             mood={moods.find(m => m.id === entry.moodId)}
             onEditButtonClick={onEditButtonClick}

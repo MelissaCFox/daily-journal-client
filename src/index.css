@@ -1,2 +1,25 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
+.entry__tag_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry__tag {
+    border: dotted rgb(149, 113, 151, 0.5) 2px;
+    padding: 0.1rem 0.1rem 0.25rem 0.1rem;
+    margin: 0.3rem 0.2rem 1rem 0.2rem;
+    border-radius: 25px;
+    min-width: 7rem;
+    text-align: center;
+    background-color: rgb(149, 113, 151, 0.3);
+
+}
+
+.tag_option {
+    margin: 0.5rem;
+}
+
+.tag_label {
+    margin-left: -.4rem;
+}
