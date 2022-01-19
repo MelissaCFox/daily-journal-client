@@ -73,7 +73,9 @@ export const EntryForm = ({ entry, moods, onFormSubmit }) => {
         } 
 
         onFormSubmit(copyEntry)
-        document.getElementById('entry_form').reset()
+        setUserTags([])
+        copyEntry.mood_id = "0"
+        setUpdatedEntry(copyEntry)
 
     }
 
